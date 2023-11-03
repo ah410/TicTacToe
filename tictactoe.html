@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="tictactoe.css">
+    <script type="text/javascript" href="tictactoe.js"></script>
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+    <div id="playerO">Player O <br> <i id="oscore">0</i> </div>
+    <div id="playerX">Player X <br> <i id="xscore">0</i> </div>
+    <div id="tictactoe">
+        <p><b>Click New Game To Pick Who Starts</b></p>
+        <p><b id="turn"></b></p>
+        <div>
+            <table>
+                <tr>
+                    <td id="0" class="cell" onclick="clickCell(0);">&nbsp;</td>
+                    <td id="1" class="cell" onclick="clickCell(1);">&nbsp;</td>
+                    <td id="2" class="cell" onclick="clickCell(2);">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td id="3" class="cell" onclick="clickCell(3);">&nbsp;</td>
+                    <td id="4" class="cell" onclick="clickCell(4);">&nbsp;</td>
+                    <td id="5" class="cell" onclick="clickCell(5);">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td id="6" class="cell" onclick="clickCell(6);">&nbsp;</td>
+                    <td id="7" class="cell" onclick="clickCell(7);">&nbsp;</td>
+                    <td id="8" class="cell" onclick="clickCell(8);">&nbsp;</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <input type="button" onclick="resetGame();" value="Reset Game">
+        <input type="button" onclick="NewGame();" value="New Game">
+    </div>
+</body>
+</html>
