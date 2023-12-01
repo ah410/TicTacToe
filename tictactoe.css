@@ -1,0 +1,82 @@
+div {
+    margin: 0px auto; 
+    text-align: center; 
+    margin: auto; 
+}
+body {
+    background-color:teal; 
+    width: 650px; 
+    margin: auto;
+
+} 
+table {
+    margin: auto;
+}
+p {
+    font-size: 16px;
+    font-family: cursive;
+}
+#tictactoe {
+    text-align: center; 
+    margin: auto;
+    border: black solid 2px;
+    background-color: cadetblue;
+}
+#playerx {
+    float: left;
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 32px;
+    font-family: cursive;
+    background-color:teal;
+    padding: 10px;
+    border: solid black 1px; 
+    border-radius: 10px;
+    box-shadow: 0 9px black;
+}
+#playero {
+    float: right;
+    margin-right: 20px;
+    margin-top: 50px;
+    font-size: 32px;
+    font-family: cursive;
+    background-color:teal;
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 10px;
+    box-shadow: 0 9px black;
+}
+i {
+    text-align: center;   
+    font-size: 32px;
+    font-family: cursive; 
+}
+.cell:hover {
+    background-color: darkred;
+    text-align: center;
+}
+h1 {
+    text-align: center; 
+    font-family: cursive; 
+    font-size: 45px; 
+}
+
+.cell {
+    width:80px; 
+    height:80px; 
+    border: 5px solid #000000;
+    font-size: 46pt; 
+    font-weight: bold; 
+    text-align: center;
+    margin: auto;
+}
+input {
+    background-color: cadetblue;
+    font-size: 12px;
+    font-family: cursive; 
+    border: black solid 1px;
+    font-weight: 700;
+    border-radius: 10px;
+    box-shadow: 0 9px black;
+    height: 25px;
+}

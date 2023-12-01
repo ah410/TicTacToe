@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TicTacToe</title>
     <link rel="stylesheet" href="tictactoe.css">
-    <script type="text/javascript" href="tictactoe.js"></script>
+    <script type="text/javascript" href="tictactoe.js" defer></script>
 </head>
 <body>
     <h1>Tic Tac Toe</h1>
-    <div id="playerO">Player O <br> <i id="oscore">0</i> </div>
-    <div id="playerX">Player X <br> <i id="xscore">0</i> </div>
+    <div id="playero">Player O <br> <i id="oscore">0</i> </div>
+    <div id="playerx">Player X <br> <i id="xscore">0</i> </div>
     <div id="tictactoe">
         <p><b>Click New Game To Pick Who Starts</b></p>
         <p><b id="turn"></b></p>
@@ -35,7 +35,8 @@
         </div>
         <br>
         <input type="button" onclick="resetGame();" value="Reset Game">
-        <input type="button" onclick="NewGame();" value="New Game">
+        <input type="button" onclick="newGame();" value="New Game">
+        <br><br>
     </div>
 </body>
 </html>
